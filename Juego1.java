@@ -9,12 +9,12 @@ package juego;
  *
  * @author sheldon
  */
-public class MenuCartas extends javax.swing.JFrame {
+public class Juego1 extends javax.swing.JFrame {
 
     /**
      * Creates new form MenuCartas
      */
-    public MenuCartas() {
+    public Juego1() {
         initComponents();
         this.setLocationRelativeTo(null);
     }
@@ -38,30 +38,22 @@ public class MenuCartas extends javax.swing.JFrame {
         jButtonCarta8 = new javax.swing.JButton();
         jButtonCarta9 = new javax.swing.JButton();
         jButtonSalir = new javax.swing.JButton();
-        jLabelN6 = new javax.swing.JLabel();
         jLabelDerechos = new javax.swing.JLabel();
-        jLabelN7 = new javax.swing.JLabel();
-        jLabelN4 = new javax.swing.JLabel();
-        jLabelN5 = new javax.swing.JLabel();
-        jLabelN8 = new javax.swing.JLabel();
-        jLabelN3 = new javax.swing.JLabel();
-        jLabelN1 = new javax.swing.JLabel();
-        jLabelN10 = new javax.swing.JLabel();
-        jLabelN2 = new javax.swing.JLabel();
         jButtonRegresar = new javax.swing.JButton();
+        jButtonCarta10 = new javax.swing.JButton();
         jLabelFondo = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButtonCarta1.setText("carta 1");
+        jButtonCarta1.setText("Fase");
         jButtonCarta1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonCarta1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCarta1, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 160, -1, -1));
+        getContentPane().add(jButtonCarta1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 880, 60));
 
         jButtonCarta2.setText("carta 2");
         jButtonCarta2.addActionListener(new java.awt.event.ActionListener() {
@@ -69,7 +61,7 @@ public class MenuCartas extends javax.swing.JFrame {
                 jButtonCarta2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCarta2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 160, -1, -1));
+        getContentPane().add(jButtonCarta2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 120, 260, 120));
 
         jButtonCarta3.setText("carta 3");
         jButtonCarta3.addActionListener(new java.awt.event.ActionListener() {
@@ -77,7 +69,7 @@ public class MenuCartas extends javax.swing.JFrame {
                 jButtonCarta3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCarta3, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 160, -1, -1));
+        getContentPane().add(jButtonCarta3, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 120, 260, 120));
 
         jButtonCarta4.setText("carta 4");
         jButtonCarta4.addActionListener(new java.awt.event.ActionListener() {
@@ -85,7 +77,7 @@ public class MenuCartas extends javax.swing.JFrame {
                 jButtonCarta4ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCarta4, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 270, -1, -1));
+        getContentPane().add(jButtonCarta4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 240, 260, 120));
 
         jButtonCarta7.setText("carta 7");
         jButtonCarta7.addActionListener(new java.awt.event.ActionListener() {
@@ -93,7 +85,7 @@ public class MenuCartas extends javax.swing.JFrame {
                 jButtonCarta7ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCarta7, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 380, -1, -1));
+        getContentPane().add(jButtonCarta7, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 360, 260, 120));
 
         jButtonCarta6.setText("carta 6");
         jButtonCarta6.addActionListener(new java.awt.event.ActionListener() {
@@ -101,7 +93,7 @@ public class MenuCartas extends javax.swing.JFrame {
                 jButtonCarta6ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCarta6, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 270, -1, -1));
+        getContentPane().add(jButtonCarta6, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 240, 260, 120));
 
         jButtonCarta5.setText("carta 5");
         jButtonCarta5.addActionListener(new java.awt.event.ActionListener() {
@@ -109,23 +101,23 @@ public class MenuCartas extends javax.swing.JFrame {
                 jButtonCarta5ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCarta5, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 270, -1, -1));
+        getContentPane().add(jButtonCarta5, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 240, 260, 120));
 
-        jButtonCarta8.setText("jButton8");
+        jButtonCarta8.setText("carta 8");
         jButtonCarta8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonCarta8ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCarta8, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 380, -1, -1));
+        getContentPane().add(jButtonCarta8, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 360, 260, 120));
 
-        jButtonCarta9.setText("jButton9");
+        jButtonCarta9.setText("carta 9");
         jButtonCarta9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonCarta9ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButtonCarta9, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 380, -1, -1));
+        getContentPane().add(jButtonCarta9, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 360, 260, 120));
 
         jButtonSalir.setBackground(new java.awt.Color(0, 51, 204));
         jButtonSalir.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -138,55 +130,10 @@ public class MenuCartas extends javax.swing.JFrame {
         });
         getContentPane().add(jButtonSalir, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 0, -1, -1));
 
-        jLabelN6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabelN6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabelN6.setText("nombre");
-        getContentPane().add(jLabelN6, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 300, -1, -1));
-
         jLabelDerechos.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabelDerechos.setForeground(new java.awt.Color(255, 255, 255));
         jLabelDerechos.setText("derechos ");
         getContentPane().add(jLabelDerechos, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 510, -1, -1));
-
-        jLabelN7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabelN7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabelN7.setText("nombre");
-        getContentPane().add(jLabelN7, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 410, -1, 20));
-
-        jLabelN4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabelN4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabelN4.setText("nombre");
-        getContentPane().add(jLabelN4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 300, -1, -1));
-
-        jLabelN5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabelN5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabelN5.setText("nombre");
-        getContentPane().add(jLabelN5, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 300, -1, -1));
-
-        jLabelN8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabelN8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabelN8.setText("nombre");
-        getContentPane().add(jLabelN8, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 410, -1, -1));
-
-        jLabelN3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabelN3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabelN3.setText("nombre");
-        getContentPane().add(jLabelN3, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 190, -1, -1));
-
-        jLabelN1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabelN1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabelN1.setText("nombre");
-        getContentPane().add(jLabelN1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 190, -1, -1));
-
-        jLabelN10.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabelN10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabelN10.setText("nombre");
-        getContentPane().add(jLabelN10, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 410, -1, -1));
-
-        jLabelN2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabelN2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabelN2.setText("nombre");
-        getContentPane().add(jLabelN2, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 190, -1, -1));
 
         jButtonRegresar.setBackground(new java.awt.Color(0, 51, 204));
         jButtonRegresar.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -198,6 +145,14 @@ public class MenuCartas extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButtonRegresar, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 0, -1, -1));
+
+        jButtonCarta10.setText("carta 1");
+        jButtonCarta10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButtonCarta10ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButtonCarta10, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 120, 260, 120));
 
         jLabelFondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fondoprincipal.jpg"))); // NOI18N
         getContentPane().add(jLabelFondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1067, 539));
@@ -271,6 +226,10 @@ public class MenuCartas extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButtonRegresarActionPerformed
 
+    private void jButtonCarta10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCarta10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButtonCarta10ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -288,26 +247,28 @@ public class MenuCartas extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(MenuCartas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Juego1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(MenuCartas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Juego1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(MenuCartas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Juego1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(MenuCartas.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Juego1.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new MenuCartas().setVisible(true);
+                new Juego1().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonCarta1;
+    private javax.swing.JButton jButtonCarta10;
     private javax.swing.JButton jButtonCarta2;
     private javax.swing.JButton jButtonCarta3;
     private javax.swing.JButton jButtonCarta4;
@@ -320,14 +281,5 @@ public class MenuCartas extends javax.swing.JFrame {
     private javax.swing.JButton jButtonSalir;
     private javax.swing.JLabel jLabelDerechos;
     private javax.swing.JLabel jLabelFondo;
-    private javax.swing.JLabel jLabelN1;
-    private javax.swing.JLabel jLabelN10;
-    private javax.swing.JLabel jLabelN2;
-    private javax.swing.JLabel jLabelN3;
-    private javax.swing.JLabel jLabelN4;
-    private javax.swing.JLabel jLabelN5;
-    private javax.swing.JLabel jLabelN6;
-    private javax.swing.JLabel jLabelN7;
-    private javax.swing.JLabel jLabelN8;
     // End of variables declaration//GEN-END:variables
 }
